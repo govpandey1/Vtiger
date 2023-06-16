@@ -22,7 +22,7 @@ public class LeadsPage {
 	public void clickOnLeadsPlusButton() {
 		leadsPlusButton.click();
 	}
-	public void querry() {
+	public void clickOnSavePage(){
 		
 	}
 }
