@@ -20,6 +20,9 @@ import vitiger.POMRepository.HomePage;
 import vitiger.POMRepository.LoginPage;
 
 public class BaseClass {
+	
+	//TRYING TO PULL INTO MASTER REPOSITORY (will be imposible by normal way)
+	
 	public WebDriver driver;
 	public FileUtility fUtils=new FileUtility();
 	public WebDriverUtility wUtils = new WebDriverUtility();
@@ -27,6 +30,7 @@ public class BaseClass {
 	public static WebDriver sDriver;
 	public Connection connection;
 	
+
 	@BeforeSuite
 	public void bsConfig() throws SQLException {
 		Driver driver = new Driver();
