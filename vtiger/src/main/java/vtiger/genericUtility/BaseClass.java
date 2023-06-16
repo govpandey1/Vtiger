@@ -21,7 +21,8 @@ import vitiger.POMRepository.LoginPage;
 
 public class BaseClass {
 	
-	//TRYING TO PULL INTO MASTER REPOSITORY (will be imposible by normal way)
+	//TRYING TO PULL INTO MASTER REPOSITORY (will be imposible by normal way)  
+	//Creating my own branch to push to master repository(will be possible)
 	
 	public WebDriver driver;
 	public FileUtility fUtils=new FileUtility();
