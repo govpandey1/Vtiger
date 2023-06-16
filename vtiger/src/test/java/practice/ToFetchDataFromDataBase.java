@@ -27,7 +27,6 @@ public class ToFetchDataFromDataBase {
 		connection.close();
 		
 		
-		
 
 	}
 
