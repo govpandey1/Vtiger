@@ -1,4 +1,4 @@
-package vtiger.genericUtility;
+/*package vtiger.genericUtility;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -25,7 +25,7 @@ public class ListenersImplementationClass implements ITestListener {
 	}
 	/**
 	 * To take screenshot of failed test scripts
-	 */
+	 
 	public void onTestFailure(ITestResult result) {
 		test.log(Status.FAIL,result.getMethod().getMethodName());
 		test.log(Status.FAIL, result.getThrowable());
@@ -75,4 +75,4 @@ public class ListenersImplementationClass implements ITestListener {
 	
 	
 
-}
+}*/

@@ -13,10 +13,10 @@ import vitiger.POMRepository.LeadInformationPage;
 import vitiger.POMRepository.LeadsPage;
 import vtiger.genericUtility.BaseClass;
 import vtiger.genericUtility.IPathConstant;
-@Listeners (vtiger.genericUtility.ListenersImplementationClass.class)
+//@Listeners (vtiger.genericUtility.ListenersImplementationClass.class)
 public class ToVerifyLeadInfoTest extends BaseClass {
 
-	@Test(retryAnalyzer = vtiger.genericUtility.RetryAnalyzerImplementationClass.class)
+	@Test//(retryAnalyzer = vtiger.genericUtility.RetryAnalyzerImplementationClass.class)
 	public void toCreateALeadAndToVerifyLeadInfoTest() throws EncryptedDocumentException, IOException, InterruptedException {
 		//Here we are fetching data from excel sheets
 		String leadSalutation = eUtils.fetchStringDataFromExcelSheet(IPathConstant.LEAD_SHEETNAME, 17, 2);

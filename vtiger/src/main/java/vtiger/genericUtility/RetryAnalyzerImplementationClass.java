@@ -1,4 +1,4 @@
-package vtiger.genericUtility;
+/*package vtiger.genericUtility;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
@@ -17,4 +17,4 @@ public class RetryAnalyzerImplementationClass implements IRetryAnalyzer {
 		return false;
 	}
 
-}
+}*/
