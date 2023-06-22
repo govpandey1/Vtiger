@@ -15,6 +15,7 @@ public class GetDate {
 		System.out.println(new JavaUtility().generateDateInYYYY_MM_DD_Format());
 
 		System.out.println("Change in Git");
+		System.out.println("Change in Git");
 
 	}
 
